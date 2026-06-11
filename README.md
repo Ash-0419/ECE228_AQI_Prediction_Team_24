@@ -27,16 +27,7 @@ This project implements and compares four different machine learning models opti
 
 ## Usage
 
-To train all models from scratch and generate the comparison report:
-```bash
-python master_trainer.py
-```
-
-The script will:
-- Load and preprocess the `AirQuality_Cleaned.csv` data.
-- Run hyperparameter optimization for each model using GWO and PSO.
-- Train the final models.
-- Save metrics (RMSE, MAE, R2, Time) to `final_results_report.csv`.
+To train all models from scratch and generate the comparison reports, run each model in Jupyter Notebook or Google Colab.
 
 ## Results
-Final evaluation metrics are saved automatically to `final_results_report.csv` after execution.
+Final evaluation metrics and relavent comparison graphs of Predicted vs. Actual AQI are visible upon running each model's relavent file.
